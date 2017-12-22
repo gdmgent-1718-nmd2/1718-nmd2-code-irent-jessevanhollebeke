@@ -3,11 +3,65 @@ layout   : default
 permalink: /
 # Custom Page Variables
 # ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
+title: We're all mad here 
 ---
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
-<div class="container">
-    <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
-</div>
+<body>
+    <div class="jumbotron d-flex justify-content-between">
+        <h1 class="display-3">{{ page.title }}</h1>
+        <img src="images/grin.svg" alt="Cheshire grin" width="60%">
+    </div>
+    <div class="container">
+        
+        <!-- Cards --> 
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body-cat">
+                        <h2 class="card-title">Cheshire cat</h2>
+                        <p class="card-text">Ben ik wat u zoekt? Of juist niet? Laten we het samen uitzoeken.</p>
+                    </div>
+                    <div class="button-card">
+                        <a href="cheshire_cat.html"><input type="submit" value="Meer!"></a>
+                    </div>
+                    <img src="images/Cheshire_cat.jpg" alt="Cheshire cat" width="100%">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body-animation">
+                        <h2 class="card-title">Over mij</h2>
+                        <p class="card-text">Wat ben ik? Waar kom ik vandaan? Of misschien wat hulp nodig.</p>
+                    </div>
+                    <div class="button-card">
+                        <a href="over_mij.html"><input type="submit" value="Meer!"></a>
+                    </div>
+                    <img src="images/animatie.jpg" alt="Cheshire cat" width="100%">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body-teaparty">
+                        <h2 class="card-title">Contact</h2>
+                        <p class="card-text">De weg kwijt? Vrees niet, ik zal het u zeggen. Kom heus wat dichter.</p>
+                    </div>
+                    <div class="button-card">
+                        <a href="contact.html"><input type="submit" value="Meer!"></a>
+                    </div>
+                    <img src="images/teaparty.jpg" alt="Cheshire cat" width="100%">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body-upside_down">
+                        <h2 class="card-title">Huren</h2>
+                        <p class="card-text">Hahaha, dus u wilt mij huren? Eerst kijken of u waardig genoeg bent.</p>
+                    </div>
+                    <div class="button-card">
+                        <a href="huren.html"><input type="submit" value="Meer!"></a>
+                    </div>
+                    <img src="images/Upside_down.jpg" alt="Cheshire cat" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
