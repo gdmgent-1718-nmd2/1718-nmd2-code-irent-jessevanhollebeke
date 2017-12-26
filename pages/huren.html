@@ -6,31 +6,158 @@ permalink: /huren
 title: So you wanna hire me 
 ---
 <body>
-    <div class="jumbotron">
-        <h1 class="display-3">{{ page.title }}</h1>
+    <div class="jumbotron grin">
+        <h1 class="display-3 col">{{ page.title }}</h1><br>
         <p>You may have noticed that i’m not all there myself.</p>
+                <div class="col-11 col-lg-9 d-flex justify-content-end">
+                    <img src="images/grin.svg" alt="Cheshire grin">
+                </div>
     </div>
     <div class="container">
-        <div>
-            <div class="col-7">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
                 <input type="search" name="search" placeholder="Search..">
             </div>
-            <div class="col-8">
-                <h3>Halloween</h3>
-                <input type="submit" value="Meer!">
+            <!-- Collapse Halloween -->
+            <a class="btn btn-primary panel-heading" data-toggle="collapse" href="#Halloween" aria-expanded="false" aria-controls="collapseExample">
+                <div class="col-12 col-md-9 col-lg-8">
+                    <div class="card-body-cat">
+                        <h3 class="card-title">Halloween</h3>
+                    </div>
+                    <img src="images/Pumpkin_grin.jpg" class="img-fluid rounded" alt="Responsive image">
+                </div>
+            </a>
+            <div class="collapse panel-body col-12 col-md-9 col-lg-8" id="Halloween">
+                <h2 class="intro text-center">Halloween</h2>
+                    <div class="card">
+                            <div class="card-header text-center">
+                                Algemene info
+                            </div>
+                                <div>
+                                    <p class="card-text text-right">
+                                        <strong>Beschikbaarheid:</strong>Doorheen Oktober-November<br>
+                                        <strong>Tijd:</strong> Wordt verhuurt vanaf 1 dag tot max 1 week<br>
+                                        <strong>Prijs:</strong>
+                                        <ul class="text-right">
+                                            <li><strong>1 dag</strong>€200,-</li><br>
+                                            <li><strong>2 dagen</strong>€390,-</li><br>
+                                            <li><strong>3 dagen</strong>€480,-</li><br>
+                                            <li><strong>4 dagen</strong>€570,-</li><br>
+                                            <li><strong>5 dagen</strong>€660,-</li><br>
+                                            <li><strong>6 dagen</strong>€750,-</li><br>
+                                            <li><strong>1 week</strong>	€800,-</li><br>
+                                        </ul>
+                                    </p>
+                                </div>
+                    </div>
             </div>
-            <div class="col-4">
-                <h3>Kerst</h3>
-                <input type="submit" value="Meer!">
-            </div>
-            <div class="col-8">
-                <h3>Verjaardag</h3>
-                <input type="submit" value="Meer!">
-            </div>
-            <div class="col-8">
-                <h3>Zomervakantie</h3>
-                <input type="submit" value="Meer!">
-            </div>
+            
+            <div class="w-100"></div>
+            
+            <!-- Collapse Kerst -->
+            <a class="btn btn-primary panel-heading" data-toggle="collapse" href="#Kerst" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="col-12 col-md-9 col-lg-8">
+                        <div class="card-body-cat">
+                            <h3 class="card-title">Kerst</h3>
+                        </div>
+                        <img src="images/Kerstbal.jpeg" class="img-fluid rounded" alt="Responsive image" width="500px">
+                    </div>
+                </a>
+                <div class="collapse panel-body col-12 col-md-9 col-lg-8" id="Kerst">
+                    <h2 class="intro text-center">Kerst</h2>
+                        <div class="card">
+                                <div class="card-header text-center">
+                                    Algemene info
+                                </div>
+                                    <div>
+                                        <p class="card-text text-right">
+                                            <strong>Beschikbaarheid:</strong>Doorheen Oktober-November<br>
+                                            <strong>Tijd:</strong> Wordt verhuurt vanaf 1 dag tot max 1 week<br>
+                                            <strong>Prijs:</strong>
+                                                <ul class="text-right">
+                                                    <li><strong>1 dag</strong>€200,-</li><br>
+                                                    <li><strong>2 dagen</strong>€390,-</li><br>
+                                                    <li><strong>3 dagen</strong>€480,-</li><br>
+                                                    <li><strong>4 dagen</strong>€570,-</li><br>
+                                                    <li><strong>5 dagen</strong>€660,-</li><br>
+                                                    <li><strong>6 dagen</strong>€750,-</li><br>
+                                                    <li><strong>1 week</strong>	€800,-</li><br>
+                                                </ul>
+                                        </p>
+                                    </div>
+                        </div>
+                </div>
+            
+            <div class="w-100"></div>
+
+            <!-- Collapse Verjaardag -->
+            <a class="btn btn-primary panel-heading" data-toggle="collapse" href="#Verjaardag" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="col-12 col-md-9 col-lg-8">
+                        <div class="card-body-cat">
+                            <h3 class="card-title">Verjaardag</h3>
+                        </div>
+                        <img src="images/Verjaardag.jpg" class="img-fluid rounded" alt="Responsive image">
+                    </div>
+                </a>
+                <div class="collapse panel-body col-12 col-md-9 col-lg-8" id="Verjaardag">
+                    <h2 class="intro text-center">Verjaardagen</h2>
+                        <div class="card">
+                                <div class="card-header text-center">
+                                    Algemene info
+                                </div>
+                                    <div>
+                                        <p class="card-text text-right">
+                                            <strong>Beschikbaarheid:</strong>Doorheen Oktober-November<br>
+                                            <strong>Tijd:</strong> Wordt verhuurt vanaf 1 dag tot max 1 week<br>
+                                            <strong>Prijs:</strong>
+                                                <ul class="text-right">
+                                                    <li><strong>1 dag</strong>€200,-</li><br>
+                                                    <li><strong>2 dagen</strong>€390,-</li><br>
+                                                    <li><strong>3 dagen</strong>€480,-</li><br>
+                                                    <li><strong>4 dagen</strong>€570,-</li><br>
+                                                    <li><strong>5 dagen</strong>€660,-</li><br>
+                                                    <li><strong>6 dagen</strong>€750,-</li><br>
+                                                    <li><strong>1 week</strong>	€800,-</li><br>
+                                                </ul>
+                                        </p>
+                                    </div>
+                        </div>
+                </div>
+            
+            
+                <!-- Collapse Zomervakantie -->
+            <a class="btn btn-primary panel-heading" data-toggle="collapse" href="#Vakantie" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="col-12 col-md-9 col-lg-8">
+                        <div class="card-body-cat">
+                            <h3 class="card-title">Zomervakantie</h3>
+                        </div>
+                        <img src="images/Zomervakantie.jpg" class="img-fluid rounded" alt="Responsive image">
+                    </div>
+                </a>
+                <div class="collapse panel-body col-12 col-md-9 col-lg-8" id="Vakantie">
+                    <h2 class="intro text-center">Zomervakantie</h2>
+                        <div class="card">
+                                <div class="card-header text-center">
+                                    Algemene info
+                                </div>
+                                    <div>
+                                    <p class="card-text text-right">
+                                            <strong>Beschikbaarheid:</strong>Doorheen Oktober-November<br>
+                                            <strong>Tijd:</strong> Wordt verhuurt vanaf 1 dag tot max 1 week<br>
+                                            <strong>Prijs:</strong>
+                                                <ul class="text-right">
+                                                    <li><strong>1 dag</strong>€200,-</li><br>
+                                                    <li><strong>2 dagen</strong>€390,-</li><br>
+                                                    <li><strong>3 dagen</strong>€480,-</li><br>
+                                                    <li><strong>4 dagen</strong>€570,-</li><br>
+                                                    <li><strong>5 dagen</strong>€660,-</li><br>
+                                                    <li><strong>6 dagen</strong>€750,-</li><br>
+                                                    <li><strong>1 week</strong>	€800,-</li><br>
+                                                </ul>
+                                        </p>
+                                    </div>
+                        </div>
+                </div>
         </div>
     </div>
 </body>

@@ -6,12 +6,12 @@ permalink: /cheshire_cat
 title: Cheshire cat 
 ---
 <body>
-    <div class="jumbotron">
-        <div class="d-flex justify-content-between">
-            <h1 class="display-3">{{ page.title }}</h1>
-            <img src="images/grin.svg" alt="Cheshire grin" width="60%">
+    <div class="jumbotron grin">
+            <h1 class="display-3 col">{{ page.title }}</h1><br>
+            <p>I’m not crazy. My reality is just different than yours</p>
+        <div class="col-11 col-lg-9 d-flex justify-content-end">
+            <img src="images/grin.svg" alt="Cheshire grin">
         </div>
-        <p>I’m not crazy. My reality is just different than yours</p>
     </div>
     <div class="container">
         <div class="col-12">
@@ -24,19 +24,42 @@ title: Cheshire cat
         <h2 class="col-12">
             Populair:
         </h2>
-        <div>
-            <div class="col-8">
-                <h3>Halloween</h3>
-                <input type="submit" value="Meer!">
+        
+        <!-- cards -->
+        <div class="row">
+            <div class="col-12 col-lg-12">
+                    <div class="card">
+                        <div class="card-body-cat">
+                            <h3 class="card-title">Halloween</h3>
+                        </div>
+                        <div class="button-card">
+                            <a href="#"><input type="submit" value="Meer!"></a>
+                        </div>
+                    <img src="images/Pumpkin_grin.jpg" alt="Lach in het donker" width="100%">
+                </div>
             </div>
-            <div class="col-4">
-                <h3>Kerst</h3>
-                <input type="submit" value="Meer!">
+            <div class="col-12 col-lg-6">
+                <div class="card">
+                        <div class="card-body-cat">
+                            <h3 class="card-title">Verjaardag</h3>
+                        </div>
+                        <div class="button-card">
+                            <a href="#"><input type="submit" value="Meer!"></a>
+                        </div>
+                    <img src="images/Verjaardag.jpg" alt="Verjaardagscupcake" width="100%">
+                </div>
             </div>
-            <div class="col-8">
-                <h3>Verjaardag</h3>
-                <input type="submit" value="Meer!">
-            </div>
+            <div class="col-12 col-lg-6">
+                    <div class="card">
+                        <div class="card-body-cat">
+                            <h3 class="card-title">Kerst</h3>
+                        </div>
+                        <div class="button-card">
+                            <a href="#"><input type="submit" value="Meer!"></a>
+                        </div>
+                        <img src="images/Kerstbal.jpeg" alt="Kerstbal" width="100%">
+                    </div>
+                </div>
         </div>
     </div>
 </body>
