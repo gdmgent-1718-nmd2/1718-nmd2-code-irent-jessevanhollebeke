@@ -10,12 +10,38 @@ body{
 }
 
 h2{
+  font-family: open sans;
   padding-top: 10px;
   color: rgb(159,68,126);
+}
+h3{
+  font-family: open sans;
+  color: white;
 }
 ul,
 p{
   color: white;
+}
+em{
+  font-size: 1.3em;
+  padding-right: 15px;
+}
+#googleMap{
+  margin: 20px 0px; 
+}
+label{
+  font-family: open sans;
+  color: rgb(159,68,126);
+}
+input{
+  font-family: open sans;
+}
+.container p,li{
+  font-family: Dosis;
+  font-weight: bold;
+}
+.disclaimer p{
+  opacity: 0.4;
 }
 a{
   color: white;
@@ -111,6 +137,8 @@ ul.text-right li>strong{
 
 /* Collapse */
 .btn{
+  width: 500px;
+  max-height: 500px;
   border: none;
   background: none;
   border-style: none;
@@ -121,10 +149,7 @@ ul.text-right li>strong{
   background: none;
   border-color: white;
 }
-.btn-primary{
-  border: none;
-  background: none;
-}
+
 .panel-heading {
   background-color: none;
   color: white;
@@ -134,11 +159,13 @@ a.panel-heading:hover{
   background-color: rgba(0, 0, 0, 0);
 }
 .panel-body {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.7);
+  max-height: 500px;
   color: white;
 }
 .collapse{
+  float: inherit;
   width: 100%;
   padding: 10px;
 }

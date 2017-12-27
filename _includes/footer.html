@@ -1,18 +1,18 @@
 <nav class="navbar navbar-light sticky-bottom">
 {%- if site.show-style-guide %}
-    <div class="col">
-        <!-- <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a> -->
-    </div>
-    <div class="col-12 disclaimer">
-            <div class="icons">
-                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://github.com/"><i class="fab fa-github"></i></a>
-            </div>
-            <p>Deze website gemaakt door Jesse Vanhollebeke in het schooljaar 2017-18. In opdracht van Campus Mariakerke ArteveldeHogeschool Gent.
-                    Deze site en gegevens zijn niet bedoeld voor commercieel gebruik noch een echte verhuursite.</p>
-    </div>
+<div class="container">
+        <div class="col-2 icons">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="col-10 disclaimer">
+                <p>Deze website gemaakt door Jesse Vanhollebeke in het schooljaar 2017-18. In opdracht van Campus Mariakerke ArteveldeHogeschool Gent.
+                        Deze site en gegevens zijn niet bedoeld voor commercieel gebruik noch een echte verhuursite.</p>
+        </div>
+</div>
     <!-- <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a> -->
+            <!-- <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a> -->
 {%- endif %}
 </nav>

@@ -14,26 +14,52 @@ title: Contact me
             </div>
     </div>
     <div class="container">
-        <div class="col-8">
-        <!-- Contactformulier -->
-        <form action="/action_page.php">
-            <label for="fname">Naam</label>
-                <input type="text" id="fname" name="firstname" placeholder="Uw naam..">
-            
-            <label for="lname">Familienaam</label>
-                <input type="text" id="lname" name="lastname" placeholder="Uw familienaam..">
-            
-            <label for="country">E-mail</label>
-                <input type="text" id="lname" name="lastname" placeholder="Uw e-mailadres..">
-            
-            <label for="subject">Vragen?</label>
-            <textarea id="subject" name="subject" placeholder="Schrijf maar iets.." style="height:200px"></textarea>
-            
-            <input type="submit" value="Verzenden">
-        </form>
+        <div class="row">
+            <div class="col-12 col-lg-8 ">
+            <!-- Contactformulier -->
+            <form action="/action_page.php">
+                <label for="fname">Naam</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Uw naam..">
+                
+                <label for="lname">Familienaam</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Uw familienaam..">
+                
+                <label for="e-mail">E-mail</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Uw e-mailadres..">
+                
+                <label for="vragen">Vragen?</label>
+                <textarea id="subject" name="subject" placeholder="Schrijf maar iets.." style="height:200px"></textarea>
+                
+                <input type="submit" value="Verzenden">
+            </form>
+            </div>
+
+            <!--Google maps -->
+            <div class="col-12 col-lg-4">
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+                <script>
+                    function myMap() {
+                    var mapProp= {
+                        center:new google.maps.LatLng(51.508742,-0.120850),
+                        zoom:5,
+                    };
+                    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy4QMMhc1qkeBYeFOoMvS_JpJoYsdyZlA&callback=myMap"></script>
+                
+                <!-- Contactgegevens -->
+                <p>
+                        <em>Naam:</em>Cheshire Cat NV<br>
+                        <em>Adres:</em>Nevenstraat 25 - 
+                        3700, Tongeren<br>
+                        <em>Tel.:</em>0483092793<br>
+                        <em>E-mail:</em>CheshireC@hotmail.be
+                </p>
+            </div>
         </div>
-        <div class="d-flex justify-content-end">
-            <input type="button" value="HELP!?">
-        </div>
+            <div class="d-flex justify-content-center">
+                <a href="over_mij.html"><input type="button" value="HELP!?"></a>
+            </div>
     </div>
 </body>
